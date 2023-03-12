@@ -5,7 +5,10 @@
     font-family: "Poppins", sans-serif;
   }
   body {
-    background-color: #f4c531;
+    
+    background-image: url(cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .container {
     font-size: 16px;

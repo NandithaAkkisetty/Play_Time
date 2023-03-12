@@ -3,13 +3,15 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+
   section {
     height: 100vh;
-    background-color: rgb(39, 41, 68);
+    background-image: url(/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: sans-serif;
   }
-  
+
   .score {
     color: rgb(224, 224, 224);
     height: 20vh;
@@ -145,4 +147,18 @@
       transform: translateY(0px);
     }
   }
-  
+
+.buttonback {
+  background-color:  rgb(39, 41, 68);
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.85;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
