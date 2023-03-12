@@ -1,14 +1,13 @@
 body {
     padding: 10px;
     margin: 0;   
-    background-color: white;
+    background-color: rgb(243, 241, 230);
     text-align: center;
 }
 
-
 .player1{
 	margin: 0 auto;
-	color: skyblue;
+	color: rgb(57, 17, 235);
 	font-weight: bolder;
 	font-size: 20px;
 
@@ -17,7 +16,7 @@ body {
 .player2{
 	margin: 0 auto;
 	
-	color: salmon;
+	color: rgb(212, 49, 31);
 	font-weight: bolder;
 	font-size: 20px;
 }
@@ -27,7 +26,7 @@ body {
 	width: 50px;
 	height: 50px;
 	position: absolute;
-	background-color: white;
+	background-color: rgb(255, 249, 249);
 	line-height: 50px;
 }
 
@@ -39,13 +38,13 @@ body {
 	height: 15px;
 	width: 15px;
 	border-radius: 100%;
-	background-color: gray;		
+	background-color: rgb(0, 0, 0);		
 	z-index: 1000;	
 }
 
 .line{
 	position: absolute;
-	background-color: whitesmoke;	
+	background-color: rgb(253, 244, 244);	
 	cursor: pointer;
 	z-index: 1;	
 
@@ -62,10 +61,10 @@ body {
 }
 
 .line:hover{
-	background-color: #373737;
+	background-color: #e30a0a;
 }
 
 .line-active{
-	background-color: #373737;
+	background-color: #020202;
 }
 
