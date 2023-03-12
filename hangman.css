@@ -117,15 +117,16 @@
     color: #fe5152;
   }
 
-  .buttonback {
-    background-color: #f4511e;
+
+.buttonback {
+    background-color:  rgb(39, 41, 68);
     border: none;
     color: white;
     padding: 16px 32px;
     text-align: center;
     font-size: 16px;
     margin: 4px 2px;
-    opacity: 0.6;
+    opacity: 0.85;
     transition: 0.3s;
     display: inline-block;
     text-decoration: none;
